@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://simpleinterest.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://simpleinterest.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://simpleinterest.org/">
+      <s:element name="CalculateInterest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="principle" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="time" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalculateInterestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CalculateInterestResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CalculateInterestSoapIn">
+    <wsdl:part name="parameters" element="tns:CalculateInterest" />
+  </wsdl:message>
+  <wsdl:message name="CalculateInterestSoapOut">
+    <wsdl:part name="parameters" element="tns:CalculateInterestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SimpleInterestSoap">
+    <wsdl:operation name="CalculateInterest">
+      <wsdl:input message="tns:CalculateInterestSoapIn" />
+      <wsdl:output message="tns:CalculateInterestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SimpleInterestSoap" type="tns:SimpleInterestSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalculateInterest">
+      <soap:operation soapAction="http://simpleinterest.org/CalculateInterest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SimpleInterestSoap12" type="tns:SimpleInterestSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalculateInterest">
+      <soap12:operation soapAction="http://simpleinterest.org/CalculateInterest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SimpleInterest">
+    <wsdl:port name="SimpleInterestSoap" binding="tns:SimpleInterestSoap">
+      <soap:address location="https://localhost:44337/SimpleInterest.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SimpleInterestSoap12" binding="tns:SimpleInterestSoap12">
+      <soap12:address location="https://localhost:44337/SimpleInterest.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B599287-A3AF-470B-B51D-9CD5F2D3DE60}|SOAP_SERVER\\SOAP_SERVER.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\soap_server\\soap_server\\calculator_consume.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B599287-A3AF-470B-B51D-9CD5F2D3DE60}|SOAP_SERVER\\SOAP_SERVER.csproj|solutionrelative:soap_server\\calculator_consume.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B599287-A3AF-470B-B51D-9CD5F2D3DE60}|SOAP_SERVER\\SOAP_SERVER.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\soap_server\\soap_server\\calculator_consume.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B599287-A3AF-470B-B51D-9CD5F2D3DE60}|SOAP_SERVER\\SOAP_SERVER.csproj|solutionrelative:soap_server\\calculator_consume.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B599287-A3AF-470B-B51D-9CD5F2D3DE60}|SOAP_SERVER\\SOAP_SERVER.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\soap_server\\soap_server\\calculator.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B599287-A3AF-470B-B51D-9CD5F2D3DE60}|SOAP_SERVER\\SOAP_SERVER.csproj|solutionrelative:soap_server\\calculator.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 353,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculator_Consume.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\SOAP_SERVER\\Calculator_Consume.aspx.cs",
+              "RelativeDocumentMoniker": "SOAP_SERVER\\Calculator_Consume.aspx.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\SOAP_SERVER\\Calculator_Consume.aspx.cs",
+              "RelativeToolTip": "SOAP_SERVER\\Calculator_Consume.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:58:18.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator_Consume.aspx",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\SOAP_SERVER\\Calculator_Consume.aspx",
+              "RelativeDocumentMoniker": "SOAP_SERVER\\Calculator_Consume.aspx",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\SOAP_SERVER\\Calculator_Consume.aspx",
+              "RelativeToolTip": "SOAP_SERVER\\Calculator_Consume.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-20T04:55:38.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculator.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\SOAP_SERVER\\Calculator.asmx.cs",
+              "RelativeDocumentMoniker": "SOAP_SERVER\\Calculator.asmx.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\SOAP_SERVER\\SOAP_SERVER\\Calculator.asmx.cs",
+              "RelativeToolTip": "SOAP_SERVER\\Calculator.asmx.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:34:14.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

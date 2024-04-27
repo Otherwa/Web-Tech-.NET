@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\Cache_Memo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17A9B3D4-94B2-4007-B29C-ED6C2929E8F5}|Cache_Memo\\Cache_Memo.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\cache_memo\\cache_memo\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{17A9B3D4-94B2-4007-B29C-ED6C2929E8F5}|Cache_Memo\\Cache_Memo.csproj|solutionrelative:cache_memo\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A9B3D4-94B2-4007-B29C-ED6C2929E8F5}|Cache_Memo\\Cache_Memo.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\cache_memo\\cache_memo\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A9B3D4-94B2-4007-B29C-ED6C2929E8F5}|Cache_Memo\\Cache_Memo.csproj|solutionrelative:cache_memo\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 355,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\Cache_Memo\\Cache_Memo\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Cache_Memo\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\Cache_Memo\\Cache_Memo\\Default.aspx.cs",
+              "RelativeToolTip": "Cache_Memo\\Default.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T04:20:43.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\Cache_Memo\\Cache_Memo\\Default.aspx",
+              "RelativeDocumentMoniker": "Cache_Memo\\Default.aspx",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\Cache_Memo\\Cache_Memo\\Default.aspx",
+              "RelativeToolTip": "Cache_Memo\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-20T04:12:51.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

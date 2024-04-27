@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://products.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://products.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://products.org/">
+      <s:element name="Get_Details">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_DetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_DetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Product_name">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="s" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Product_nameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_Product_nameResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Get_DetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Details" />
+  </wsdl:message>
+  <wsdl:message name="Get_DetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_DetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Product_nameSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Product_name" />
+  </wsdl:message>
+  <wsdl:message name="Get_Product_nameSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Product_nameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ProdSoapSoap">
+    <wsdl:operation name="Get_Details">
+      <wsdl:input message="tns:Get_DetailsSoapIn" />
+      <wsdl:output message="tns:Get_DetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Product_name">
+      <wsdl:input message="tns:Get_Product_nameSoapIn" />
+      <wsdl:output message="tns:Get_Product_nameSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProdSoapSoap" type="tns:ProdSoapSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Get_Details">
+      <soap:operation soapAction="http://products.org/Get_Details" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Product_name">
+      <soap:operation soapAction="http://products.org/Get_Product_name" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProdSoapSoap12" type="tns:ProdSoapSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Get_Details">
+      <soap12:operation soapAction="http://products.org/Get_Details" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Product_name">
+      <soap12:operation soapAction="http://products.org/Get_Product_name" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ProdSoap">
+    <wsdl:port name="ProdSoapSoap" binding="tns:ProdSoapSoap">
+      <soap:address location="https://localhost:44351/ProdSoap.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProdSoapSoap12" binding="tns:ProdSoapSoap12">
+      <soap12:address location="https://localhost:44351/ProdSoap.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

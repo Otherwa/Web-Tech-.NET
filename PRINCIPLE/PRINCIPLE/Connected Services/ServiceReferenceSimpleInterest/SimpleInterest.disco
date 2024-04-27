@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://localhost:44337/SimpleInterest.asmx?wsdl" docRef="https://localhost:44337/SimpleInterest.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://localhost:44337/SimpleInterest.asmx" xmlns:q1="http://simpleinterest.org/" binding="q1:SimpleInterestSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://localhost:44337/SimpleInterest.asmx" xmlns:q2="http://simpleinterest.org/" binding="q2:SimpleInterestSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

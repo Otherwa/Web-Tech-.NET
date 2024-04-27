@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{636A1D0C-6BD1-444E-BAEA-6555B31A19AD}|PRINCIPLE\\PRINCIPLE.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\principle\\principle\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636A1D0C-6BD1-444E-BAEA-6555B31A19AD}|PRINCIPLE\\PRINCIPLE.csproj|solutionrelative:principle\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636A1D0C-6BD1-444E-BAEA-6555B31A19AD}|PRINCIPLE\\PRINCIPLE.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\principle\\principle\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{636A1D0C-6BD1-444E-BAEA-6555B31A19AD}|PRINCIPLE\\PRINCIPLE.csproj|solutionrelative:principle\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{636A1D0C-6BD1-444E-BAEA-6555B31A19AD}|PRINCIPLE\\PRINCIPLE.csproj|c:\\users\\exam\\desktop\\09_atharv_web\\principle\\principle\\simpleinterest.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{636A1D0C-6BD1-444E-BAEA-6555B31A19AD}|PRINCIPLE\\PRINCIPLE.csproj|solutionrelative:principle\\simpleinterest.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 353,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\PRINCIPLE\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "PRINCIPLE\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\PRINCIPLE\\Default.aspx.cs",
+              "RelativeToolTip": "PRINCIPLE\\Default.aspx.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwCIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T05:34:49.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\PRINCIPLE\\Default.aspx",
+              "RelativeDocumentMoniker": "PRINCIPLE\\Default.aspx",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\PRINCIPLE\\Default.aspx",
+              "RelativeToolTip": "PRINCIPLE\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-27T05:32:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleInterest.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\PRINCIPLE\\SimpleInterest.asmx.cs",
+              "RelativeDocumentMoniker": "PRINCIPLE\\SimpleInterest.asmx.cs",
+              "ToolTip": "C:\\Users\\exam\\Desktop\\09_Atharv_Web\\PRINCIPLE\\PRINCIPLE\\SimpleInterest.asmx.cs",
+              "RelativeToolTip": "PRINCIPLE\\SimpleInterest.asmx.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T05:28:26.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

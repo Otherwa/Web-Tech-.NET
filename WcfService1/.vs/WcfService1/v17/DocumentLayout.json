@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89F01F76-27BC-4089-8897-F0B3E4360E48}|WcfService1\\WcfService1.csproj|c:\\users\\exam\\source\\repos\\web-tech-.net\\wcfservice1\\wcfservice1\\myusercontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F01F76-27BC-4089-8897-F0B3E4360E48}|WcfService1\\WcfService1.csproj|solutionrelative:wcfservice1\\myusercontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F01F76-27BC-4089-8897-F0B3E4360E48}|WcfService1\\WcfService1.csproj|c:\\users\\exam\\source\\repos\\web-tech-.net\\wcfservice1\\wcfservice1\\myusercontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{89F01F76-27BC-4089-8897-F0B3E4360E48}|WcfService1\\WcfService1.csproj|solutionrelative:wcfservice1\\myusercontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F01F76-27BC-4089-8897-F0B3E4360E48}|WcfService1\\WcfService1.csproj|c:\\users\\exam\\source\\repos\\web-tech-.net\\wcfservice1\\wcfservice1\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{89F01F76-27BC-4089-8897-F0B3E4360E48}|WcfService1\\WcfService1.csproj|solutionrelative:wcfservice1\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyUserControl.ascx",
+              "DocumentMoniker": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\WcfService1\\MyUserControl.ascx",
+              "RelativeDocumentMoniker": "WcfService1\\MyUserControl.ascx",
+              "ToolTip": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\WcfService1\\MyUserControl.ascx",
+              "RelativeToolTip": "WcfService1\\MyUserControl.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-05-04T05:25:27.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\WcfService1\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WcfService1\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\WcfService1\\WebForm1.aspx",
+              "RelativeToolTip": "WcfService1\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-04T05:23:14.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyUserControl.ascx.cs",
+              "DocumentMoniker": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\WcfService1\\MyUserControl.ascx.cs",
+              "RelativeDocumentMoniker": "WcfService1\\MyUserControl.ascx.cs",
+              "ToolTip": "C:\\Users\\exam\\source\\repos\\Web-Tech-.NET\\WcfService1\\WcfService1\\MyUserControl.ascx.cs",
+              "RelativeToolTip": "WcfService1\\MyUserControl.ascx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T05:20:17.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
